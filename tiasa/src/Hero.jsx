@@ -20,7 +20,13 @@ function Hero() {
     }
   }
   return (
-    <div style={{ position: "relative", overflow: "hidden" }}>
+    <div
+      style={{
+        position: "relative",
+        overflow: "hidden",
+        marginTop: "75px",
+      }}
+    >
       <div style={{ display: "flex" }}>
         <div
           style={{
@@ -142,7 +148,7 @@ function Hero() {
             filter: "invert(100%)",
           }}
           src={arrow}
-          alt=""
+          alt="left arrow"
         />
       </button>
       <button
@@ -158,7 +164,7 @@ function Hero() {
         <img
           style={{ width: "2rem", filter: "invert(100%)" }}
           src={arrow}
-          alt=""
+          alt="right arrow"
         />
       </button>
     </div>

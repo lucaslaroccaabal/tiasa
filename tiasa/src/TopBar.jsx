@@ -22,6 +22,7 @@ function TopBar() {
     top: "0",
     zIndex: "100",
     width: "100vw",
+    height: "75px",
   };
   const bars = {
     height: "30px",
