@@ -55,6 +55,9 @@ function TopBar() {
       <button
         onMouseEnter={barsButtonHover}
         onMouseLeave={barsButtonHover}
+        onClick={() => {
+          scroll(2000, 0);
+        }}
         ref={barsButton}
         style={button}
       >
